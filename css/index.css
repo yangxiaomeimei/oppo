@@ -1,0 +1,121 @@
+
+.navbar {
+    border-radius:0;
+}
+@media all and (min-width:1200px){
+	 /* 1200以上屏幕  内容要在1200px */
+	/* 局部修改*/
+	.container{
+		width:1200px;
+	}
+	body{
+		background:red;
+	}
+}
+@media all and (min-width:970px) and (max-width: 1199px){
+    body{
+        background:pink;
+    }
+}
+/*平板设备*/
+@media all and (min-width:750px) and (max-width: 969px){
+    body{
+        background:cyan;
+    }
+}
+/*移动设备*/
+@media all and (max-width: 749px){
+    body{
+        background:blue;
+    }
+}
+.container #rows div:hover{
+	background:lightgreen;
+}
+
+#ul1{
+	width:326%;
+	height:80px;
+	position:absolute;
+	left:-0.3rem;
+	/*width: 60rem;*/
+	top:75px;
+	float:left;
+	z-index:3;
+	background:white;
+	list-style:none;
+	/*border:1px solid red;*/
+}
+#ul1 a{
+	float:left;
+	padding-left:2rem;
+	color:#009b72;
+	font-size:2rem;	
+}
+.ddxx{
+	display:none;
+	width:40%;
+	position:absolute;
+	right:0px;
+	top:7rem;
+	z-index:10;
+}
+.ddxx ul{
+	list-style:none;
+	
+}
+.ddxx ul li{
+	
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	background:white;
+	font-size:16px;
+	border-bottom:1px solid #009b72;
+}
+.ddxx ul li a{
+	text-decoration:none;
+	color:#009b72; 
+}
+/*#ul1 li a{
+	float:left;
+	color:#009b72;
+}*/
+.show1{
+	display:block;
+}
+.footer{
+	width: 100%;
+	background:#f6f6f6;
+}
+.footer .row3{
+	width: 86%;
+	padding-top:50px;
+	padding-bottom:30px;
+	margin:0 auto;
+	border-bottom:1px solid gray;
+}
+.footer .row3 ul{
+	list-style:none;
+}
+.footer .row3 ul li{
+	width:20rem;
+	font-size:1.6rem;
+	height: 28px;
+	line-height:28px;
+	color:black;
+}
+.footer .row3 ul li a{
+	font-size:1.4rem;
+	color:#363636;
+	text-decoration: none;
+}
+.row4{
+	width: 86%;
+	margin:0 auto;
+}
+#div1:hover{
+	/*border:1px solid red;*/
+	margin-left:-2rem;
+
+}
